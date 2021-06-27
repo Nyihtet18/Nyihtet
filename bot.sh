@@ -1,4 +1,6 @@
 #!bin/bash
+pip install coloroma
+pip install telethon
 echo "***   *** ***    *** ***" | lolcat
 figlet  N | lolcat
 echo "***   *** ****   *** ***" | lolcat
@@ -21,6 +23,7 @@ echo Install Information Wait...... | lolcat
 
 pkg update
 apt update
+
 apt upgrade
 pkg upgrade
 figlet Wait...|lolcat
